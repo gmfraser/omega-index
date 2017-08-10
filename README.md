@@ -3,7 +3,7 @@ Dependencies:
 - Requires Python 2.*.
 
 
-Calculates the Omega Index as described in Collins and Dent 1988
+Calculates the Omega Index as described in Collins and Dent 1988. 
 Takes two solution files as parameters and compares them.
 Each file should be delimited by tabs or spaces, where the first column contains the object IDs and subsequent columns list the cluster/community IDs for each object, e.g.:
 
@@ -27,7 +27,7 @@ Note also that this is very slow with large networks, e.g. > 2000 objects/nodes,
 If you use this code in your own research, please consider citing the following paper:
 
 ```
-@inproceedings{murray2012using,
+@inproceedings{murray2012omega,
   title={Using the omega index for evaluating abstractive community detection},
   author={Murray, Gabriel and Carenini, Giuseppe and Ng, Raymond},
   booktitle={Proceedings of Workshop on Evaluation Metrics and System Comparison for Automatic Summarization},
